@@ -99,5 +99,5 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
 Mixing lifetime management of handle in with other responsibilities of Task
     breaks the Rule of 0. Let's fix that by introducing a couple of helper classes to manage handles.
 
-* [Demo]((a) https://compiler-explorer.com/z/qb4hq6W1c)
+* [(a) Demo](https://compiler-explorer.com/z/qb4hq6W1c)
 
