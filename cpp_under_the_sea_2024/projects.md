@@ -13,8 +13,8 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
     * [(a) with compilers on the right](https://compiler-explorer.com/z/4nvf18oqh)
     * [(b) with compilers at the bottom](https://compiler-explorer.com/z/eb769TWWa)
 * _Exercise_: "TDD" your way to a minimum viable coroutine.
-   * [(c) Starting point](https://compiler-explorer.com/z/fMrKhex45). Just clang. Instructions in the comments.
-   * [(d) Solution](https://compiler-explorer.com/z/3Wch3TPvv) (don't open this until you have tried to work through it youself)
+   * [(c) Starting point](https://compiler-explorer.com/z/o9bhjxehh). Just clang. Instructions in the comments.
+   * [(d) Solution](https://compiler-explorer.com/z/r4Pz1qdGG) (don't open this until you have tried to work through it youself)
 
 ## 2. Resuming and destroying coroutines
 
@@ -22,8 +22,8 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
    * (a) Starting point - previous Solution.
 
 * _Exercise_: resume and destroy (same as above)
-   * [(b) Starting point](https://compiler-explorer.com/z/hqE5dY7e7). Instructions in the comments.
-   * [(c) Solution](https://compiler-explorer.com/z/EdbnvnMEK)
+   * [(b) Starting point](https://compiler-explorer.com/z/4a3ooM9fj). Instructions in the comments.
+   * [(c) Solution](https://compiler-explorer.com/z/4eEnff1oa)
  
 ## 3. Getting (return) values out
 
@@ -31,8 +31,8 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
    * (a) Starting point - previous Solution.
 
 * _Exercise_: get return value (same as above)
-   * [(b) Starting point](https://compiler-explorer.com/z/rz9fhvc7o). Instructions in the comments.
-   * [(c) Solution](https://compiler-explorer.com/z/s7K99MEh5)
+   * [(b) Starting point](https://compiler-explorer.com/z/hxecP7bT5). Instructions in the comments.
+   * [(c) Solution](https://compiler-explorer.com/z/33KbjGqMh)
 
 ## 4. Yielding values
 
@@ -40,8 +40,8 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
    * (a) Starting point - previous Solution.
 
 * _Exercise_: 
-   * [(b) Starting point](https://compiler-explorer.com/z/6e7dz6876). Instructions in the comments
-   * [(c) Solution](https://compiler-explorer.com/z/691E53TPM)
+   * [(b) Starting point](https://compiler-explorer.com/z/rqKzPqGzM). Instructions in the comments
+   * [(c) Solution](https://compiler-explorer.com/z/xzcnMo9Pv)
 
 ## 5. Generators
 
@@ -49,13 +49,13 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
     * (a) Starting point - previous Solution
 
 * _Exercise_:
-    * [(b) Starting point](https://compiler-explorer.com/z/xeTWx6bjq)
-    * [(c) Solution](https://compiler-explorer.com/z/Y1sWz4vbE)
+    * [(b) Starting point](https://compiler-explorer.com/z/1cE6ac7c8)
+    * [(c) Solution](https://compiler-explorer.com/z/8TKbaMars)
 
 ## 6. co_await : trivially awaitable types
 
 * Walk-through
-    * [(a) Starting point](https://compiler-explorer.com/z/a9Tscx8zq)
+    * [(a) Starting point](https://compiler-explorer.com/z/5vPq4K5Gq)
 
 ## 7. Simple awaiters: passing a value back to the coroutine
 
@@ -63,41 +63,43 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
     * (a) Continue from above
 
 * _Exercise_:
-    * [(b) Starting point](https://compiler-explorer.com/z/P98875chK)
-    * [(c) Solution](https://compiler-explorer.com/z/WbroTsbx9)
+    * [(b) Starting point](https://compiler-explorer.com/z/44hxch9q1)
+    * [(c) Solution](https://compiler-explorer.com/z/3c89zWGq7)
 
 ## 8. Awaiters of external things
 
 * Walk-through
-    * [(a) Starting point](https://compiler-explorer.com/z/Yfdvh81M3)
-
-* _Exercise_:
-    * [(b) Starting point]()
-    * [(c) Solution](https://compiler-explorer.com/z/6z7e4W6z6)
+    * [(a) Starting point](https://compiler-explorer.com/z/o6dn8j3Mn)
+    * (b) Exercise?
+    * [(c) Solution](https://compiler-explorer.com/z/1fG8f1zva)
 
 * Walk-through
     * (d) Continue from above
 
 * _Exercise_:
-    * [(e) Starting point](https://compiler-explorer.com/z/PfET7MWhe)
-    * [(f) Solution](https://compiler-explorer.com/z/drTh4e9s1)
+    * [(e) Starting point](https://compiler-explorer.com/z/cb8hqa4Te)
+    * [(f) Solution](https://compiler-explorer.com/z/e1f9sz98K)
 
 ## 9. Keeping your promises
 
 * Walk-through
-    * [(a) Starting point](https://compiler-explorer.com/z/s7K99MEh5) (just co_return)
-    * [(b) Solution](https://compiler-explorer.com/z/7W4onxozs)
+    * [(a) Starting point](https://compiler-explorer.com/z/1cx3bcs13) (just co_return)
+    * [(b) Solution](https://compiler-explorer.com/z/31MzT16zn)
 
 ## 10. Memory and HALO
 
-* [(a) Starting Point](https://compiler-explorer.com/z/s85Yfee17) (co_yield)
-* [(b) Detect heap allocation](https://compiler-explorer.com/z/KhdYvzcY3)
-* [(c) Solution with stack buffer](https://compiler-explorer.com/z/n1qdEo4Yh)
+* Walk-through
+    * [(a) Starting Point](https://compiler-explorer.com/z/rWd8xz91W) (co_yield)
+* End-points
+  * [(b) Detect heap allocation](https://compiler-explorer.com/z/x5jfYne97)
+  * [(c) Solution with stack buffer](https://compiler-explorer.com/z/69d9xYK3G)
+
+(A better solution is to use PMR allocators)
 
 ## 11. Following the Rule of 0
 
 Mixing lifetime management of handle in with other responsibilities of Task
     breaks the Rule of 0. Let's fix that by introducing a couple of helper classes to manage handles.
 
-* [(a) Demo](https://compiler-explorer.com/z/qb4hq6W1c)
-
+* [(a) Demo](https://compiler-explorer.com/z/fToM71PPe)
+* [On GitHub](https://github.com/philsquared/understanding_cpp_coroutines/blob/main/corohandles.h)
