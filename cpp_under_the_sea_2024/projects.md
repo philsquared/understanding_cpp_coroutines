@@ -7,6 +7,9 @@ You can donate using [Patreon](https://www.patreon.com/bePatron?u=3691963),
     [GitHub](https://github.com/sponsors/mattgodbolt) or
     [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=KQWQZ7GPY2GZ6&item_name=Compiler+Explorer+development&currency_code=USD&source=url).
 
+
+Slides available, [here](https://www.dropbox.com/scl/fi/0c65x8o9nsmglrfbn4dy5/slides.pdf?rlkey=nd8pjv2c6qw940hhovdr41b17&dl=0)
+
 ## 1. Deus ex Machina
 
 * We get started with a(n almost) blank slate. This CE link is set up with clang and gcc ready to go with C++20, and a trivial "Hello, World" starting point. There are two versions:
