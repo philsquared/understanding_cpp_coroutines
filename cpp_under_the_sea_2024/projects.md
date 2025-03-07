@@ -52,7 +52,7 @@ Slides available, [here](https://www.dropbox.com/scl/fi/0c65x8o9nsmglrfbn4dy5/sl
     * (a) Starting point - previous Solution
 
 * _Exercise_:
-    * [(b) Starting point](https://compiler-explorer.com/z/1cE6ac7c8)
+    * [(b) Starting point](https://compiler-explorer.com/z/zc4s6aT6K)
     * [(c) Solution](https://compiler-explorer.com/z/8TKbaMars)
 
 ## 6. co_await : trivially awaitable types
